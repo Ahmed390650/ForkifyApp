@@ -73,6 +73,9 @@ const controlUpload = async function (recipeForm) {
     addRecipeView.renderMessage(error.message);
   }
 };
+const newFeatures = () => {
+  console.log(`welcome to app`);
+};
 const init = () => {
   recipeViewe.addHandleRender(showRecipe);
   searchView.addHandleSeach(controlSearchResult);
@@ -80,6 +83,6 @@ const init = () => {
   recipeViewe.addHandlerUpadateServings(controlServings);
   recipeViewe.addHandleBookmark(controlAddBookMark);
   addRecipeView._addHandlerUpload(controlUpload);
-  console.log('object');
+  newFeatures();
 };
 init();

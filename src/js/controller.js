@@ -83,6 +83,5 @@ const init = () => {
   recipeViewe.addHandlerUpadateServings(controlServings);
   recipeViewe.addHandleBookmark(controlAddBookMark);
   addRecipeView._addHandlerUpload(controlUpload);
-  newFeatures();
 };
 init();
